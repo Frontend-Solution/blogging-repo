@@ -1,0 +1,27 @@
+.contact-content{
+  
+    height: 100vh;
+    position: relative;
+    margin-top: 32px;
+    padding: 9px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.contact-content::after {
+content: "";
+background-image: url('img/butterfly.jpg');
+background-size: cover;
+object-fit: cover;
+object-position: bottom;
+position: absolute;
+width: 100%;
+height: inherit;
+opacity: 0.55;
+top: 0px;
+z-index: -1;
+}
+
+.contact-form{
+    height: 80vh;
+}
